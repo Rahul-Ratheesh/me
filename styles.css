@@ -1,0 +1,57 @@
+body 
+{
+	padding: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	width: 100vw;
+	color: black;
+}
+nav
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+li
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.header 
+{
+	text-align: center;
+}
+.profile 
+{
+	width: 150px;
+}
+.profile-name 
+{
+	margin-top: 5px;
+	font-size: 36px;
+}
+.content 
+{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-heading
+{
+	margin-top: 10px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+p 
+{
+	font-size: 16px;
+	line-height: 1.5;
+}
+a 
+{
+	color: #258cdb;
+	text-decoration: none;
+}
+a:hover 
+{
+	color: #2571db;
+}
