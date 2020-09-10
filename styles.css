@@ -3,8 +3,7 @@ body
 	padding: 20px;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	width: 100vw;
-	color: black;
+	width: 90vw;
 }
 nav
 {
@@ -14,6 +13,7 @@ nav
 li
 {
 	margin-top: 5px;
+	line-height: 1.5;
 	margin-bottom: 5px;
 }
 .header 
@@ -54,4 +54,26 @@ a
 a:hover 
 {
 	color: #2571db;
+}
+.ytp-chrome-top 
+{
+    display: none !important;
+}
+.embed 
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.embed iframe, .embed object, .embed embed 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-
 <html lang="en">
 	<head>
-		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-		<link href="styles.css" rel="stylesheet">
 		<title>Rahul Ratheesh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<main>
 			<div class="page-content">
 				<div class="wrapper">
 					<div class="header">
-						<img class="profile" src="./assets/profile.png">
+						<img class="profile" src="assets/profile.png">
 						<h1 class="profile-name">Rahul Ratheesh</h1>
-							<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
-								<ul class="navbar-nav">
-									<li class="nav-item">
-										<a class="nav-link" href="index.html">Home</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link active" href="projects.html">Projects</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="videos.html">Videos</a>
-									</li>
-								</ul>
-							</nav>
+						<div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+							<ul class="pure-menu-list">
+								<li class="pure-menu-item">
+									<a href="index.html" class="pure-menu-link">Home</a>
+								</li>
+								<li class="pure-menu-item">
+									<a href="projects.html" class="pure-menu-link">Projects</a>
+								</li>
+								<li class="pure-menu-item">
+									<a href="videos.html" class="pure-menu-link">Videos</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-				<div class="content">
-					<h3 id="projects">Projects</h3>
-					<ul>
-						<li><a href="https://github.com/cs21x/python">CS21x</a> is a work in progress <a href="https://cs21x.github.io/python/">project</a>. I am developing an assignment autograder and gradebook using CS50's open source tools for this introductory programming <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm">course</a> from MIT.</li>
-						<li><a href="">MiniBloq</a> is a visual programming interface upgraded for Electric Ray Robot, a low cost robotic platform. More about the project here.</li>
-						<li><a href="">Game Engine</a></li>
-						<li><a href="">Cake o' Clock</a></li>
-						<li><a href="">Deadlock Simulator</a></li>
-					</ul>
+					<div class="content">
+						<h3 class="content-heading">Projects</h3>
+						<ul>
+							<li><a href="https://github.com/cs21x/python">CS21x</a> is a work in progress <a href="https://cs21x.github.io/python/">project</a>. I am developing an assignment autograder and gradebook using CS50's open source tools for MIT's <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm">Introduction to CS </a>course.</li>
+							<li><a href="">MiniBloq</a> is a visual programming interface upgraded for <a href="https://github.com/Protocentral/Electric-Ray-Robot">Electric Ray Robot</a>, a low cost robotic platform. More about the project <a href="https://ieeexplore.ieee.org/document/7020248">here</a>.</li>
+							<li><a href="https://github.com/Rahul-Ratheesh/flappy">Flappy</a> is a game engine build using C++ and OpenGL for my Computer Graphics course.</li>
+							<li><a href="https://github.com/Rahul-Ratheesh/cakeoclock">Cake O' Clock</a> is a simple website I developed for my friend to help with her cake shop. All artworks were designed in Inkscape.</li>
+							<li><a href="">Resource Allocation Graph Simulator</a> is a tool I developed to teach Deadlock concepts when I was the TA for Operating Systems course. You can see a demo of the tool <a href="">here</a>.</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</main>
